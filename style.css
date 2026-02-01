@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Red Hat Display";
+    src: url(./font/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display";
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    width: 375px;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    border-radius: 25px 25px 25px;
+}    
+
+.plan {
+    width: 300px;
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.01);
+    margin: auto;
+    margin-top: 40px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.plan2 {
+    display: inline;
+    height: 48px;
+    width: 150px;
+    padding-left: 13px;
+}
+
+.payment {
+    width: 301px;
+    height: 45px;   
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    border: 1px solid hsl(245, 75%, 52%);
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    margin-left: 36px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.payment:hover {
+    background-color: hsla(245, 75%, 52%, 0.356);
+    border: 1px solid hsl(245, 75%, 52%, 0.365);
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 800;
+}
+
+.change:hover {
+    color: hsla(245, 75%, 52%, 0.356);;
+}
+
+.cord {
+    width: 301px;
+    height: 45px;   
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    border: 1px solid hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    margin-left: 36px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cord:hover {
+    color: black;
+}
