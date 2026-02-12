@@ -13,7 +13,7 @@ body {
 
 .container {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 375px;
     background-color: hsl(225, 100%, 98%);
     align-items: center;
@@ -89,3 +89,4 @@ body {
     color: black;
 
 }
+
